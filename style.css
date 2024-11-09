@@ -19,12 +19,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px;
 }
 
 .header h1 {
-    padding: 16px;
+    padding: 16px 25px;
     font-size: 24px;
     color:  #F9FAF8;
+    align-self: center;
 }
 
 .links-right a {
@@ -67,11 +69,16 @@
 .sub-header {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 15px;
+    padding: 50px 100px;
     align-items: center;
 }
 .sub-header img {
-    max-width: 300px;
+    max-width: 350px;
+}
+
+.sub-header p {
+    width: 550px;
+    text-align: justify;
 }
 
 .content h1 {
@@ -88,7 +95,7 @@
     align-items: flex-end;
     text-align: center;
     flex-shrink: 0;
-    gap: 10px;
+    gap: 25px;
 }
 
 .block-items img {
@@ -102,21 +109,28 @@
 .block-text {
     display: flex;
     background-color: #E5E7EB ;
-    padding: 70px 50px;
     flex-direction: column;
     margin-top: 60px;
+    align-items: center;
+    padding: 100px 295px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .block-text .quote {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     color: #1F2937;
+    text-align: center;
+    width: 950px;
 }
 
 .block-text .author {
-    align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+    padding: 10px 20px 10px 0px;
+    align-self: flex-end;
 }
 
 .block-sign {
